@@ -19,13 +19,15 @@ In addition to the complexities of hash tables, we will be keeping in mind speci
 
 
 ### The Challenge
-The main challenges for us we predict will be fine-tuning the basic library and then managing the different parallelization strategies we are implementing but hiding from the user. We do not predict implementing the algorithm itself to be of particular difficulty as this is not a far cry from what we have done in previous assignments. The decisions that go into optimizing parallelism, however, we do believe to be a challenge. When to do specific operations for the data structure and considering tradeoffs with different workloads in mind will take much thought.
+The main challenges for us we predict will be fine-tuning the basic library and then managing the different parallelization strategies we are implementing but hiding from the user. We do not predict implementing the algorithm itself to be of particular difficulty as this is not a far cry from what we have done in previous assignments. The decisions that go into optimizing parallelism, however, we do believe to be a challenge. When to do specific operations for the data structure and considering tradeoffs with different workloads in mind will take much thought. Unlike previous class assignments, we are not creating a workload, we are designing a data structure to handle different workloads.
 
 ### Resources
 We will be basing our project off of the research paper “Split-ordered lists: Lock-free extensible hash tables” by Ori Shalev, which can be found on the Association of Computing Machinery Digital Library (ACM DL). The article details the algorithm, written in C, and provides some of the code it uses. We will base our code off of theirs.
 
 ### Goals and Deliverables
 Our primary goal is to create a well-abstracted C++ library to implement the lock-free hash tables described in the research paper we are using as reference. The goals we have in mind are ease of use and portability, and so the more time we have to improve the project, the close we can get to those goals. If we have enough time, we would like to implement optimizations for the system the code is being compiled in.		
+
+For a demo, we would like to have our implementation of lock-free hash tables compared with a version that uses locks in order to have graphs comparing the performance.
 
 ### Platform Choice
 We will implement different concurrent hash tables in C++. Experiments will be conducted mainly on the GHC machines. 
