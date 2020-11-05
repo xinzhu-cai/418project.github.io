@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Lock-free Hash Table
+Team members: Danié Alvarado, Xinzhu Cai
 
-You can use the [editor on GitHub](https://github.com/xinzhu-cai/418project.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+URL: https://github.com/xinzhu-cai/418project.github.io
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Summary
 
-### Markdown
+We are going to implement lock-free hash tables as a C++ library and compare its performance with lock-based implemementations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Background
 
-```markdown
-Syntax highlighted code block
+### The Challenge
 
-# Header 1
-## Header 2
-### Header 3
+### Resources
+We will be basing our project off of the research paper “Split-ordered lists: Lock-free extensible hash tables” by Ori Shalev, which can be found on the Association of Computing Machinery Digital Library (ACM DL). The article details the algorithm, written in C, and provides some of the code it uses. We will base our code off of theirs.
 
-- Bulleted
-- List
+### Goals and Deliverables
+Our primary goal is to create a well-abstracted C++ library to implement the lock-free hash tables described in the research paper we are using as reference. The goals we have in mind are ease of use and portability, and so the more time we have to improve the project, the close we can get to those goals. If we have enough time, we would like to implement optimizations for the system the code is being compiled in.		
 
-1. Numbered
-2. List
+### Platform Choice
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xinzhu-cai/418project.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Schedule 
+| Week | Task |
+| --- | ----------- |
+| Nov 2 - Nov 8 | Investigate lock-free hash table algorithms |
+| Nov 9 - Nov 15 | Implementing lock-free hash table |
+| Nov 16 - Nov 22 | Implementing the locked versions as baselines |
+| Nov 23 - Nov 29 | Conduct performance evaluation and improve the lock-free version |
+| Nov 30 - Dec 6 | Analysis and Project Report |
