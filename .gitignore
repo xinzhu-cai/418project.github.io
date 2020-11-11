@@ -1,0 +1,6 @@
+# Directories
+objs/
+
+# Compiled
+lfhash
+*.o
