@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Proposal"
 permalink: /doc/proposal
+---
 
 ### Link
 
