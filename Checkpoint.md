@@ -14,11 +14,11 @@ permalink: /doc/checkpoint
 |                | Implement the fine-grained locked extensible hash table     | Done        |
 | 11/23 -- 11/29 | Verify correctness of implemented hash tables               | Done        |
 |                | Finish checkpoint report                                    | Done        |
-| 11/30 -- 12/06 | Performance analysis                                        | In-progress |
-|                | Optimize hash table implementations                         | In-progress |
-|                | Finish final report                                         | TODO        |
-|                | Finish poster                                               | TODO        |
-|                | Optimize hash table implementations                         | TODO        |
+| 11/30 -- 12/02 | Performance analysis - same tests as the paper              | In-progress |
+| 11/30 -- 12/04 | Performance analysis - time distribution                    | In-progress |
+| 11/30 -- 12/09 | Optimize hash table implementations                         | In-progress |
+| 12/10 -- 12/13 | Finish final report                                         | TODO        |
+| 12/13 -- 12/14 | Finish poster                                               | TODO        |
 
 ## Work Completed
 
