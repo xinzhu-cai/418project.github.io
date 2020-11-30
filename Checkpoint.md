@@ -6,19 +6,19 @@ permalink: /doc/checkpoint
 
 ## Schedule and Current Progress
 
-| Week           | Task                                                        | Progress    |
-|----------------|-------------------------------------------------------------|-------------|
-| 11/02 -- 11/08 | Investigate lock-free hash table algorithms                 | Done        |
-| 11/09 -- 11/15 | Implementing lock-free extensible hash table using CAS      | Done        |
-| 11/16 -- 11/22 | Implement the coarse-grained locked extensible hash table   | Done        |
-|                | Implement the fine-grained locked extensible hash table     | Done        |
-| 11/23 -- 11/29 | Verify correctness of implemented hash tables               | Done        |
-|                | Finish checkpoint report                                    | Done        |
-| 11/30 -- 12/02 | Performance analysis - same tests as the paper              | In-progress |
-| 11/30 -- 12/04 | Performance analysis - time distribution                    | In-progress |
-| 11/30 -- 12/09 | Optimize hash table implementations                         | In-progress |
-| 12/10 -- 12/13 | Finish final report                                         | TODO        |
-| 12/13 -- 12/14 | Finish poster                                               | TODO        |
+| Week           | Task                                                        | Progress    | Assigned to |
+|----------------|-------------------------------------------------------------|-------------|-------------|
+| 11/02 -- 11/08 | Investigate lock-free hash table algorithms                 | Done        |             |
+| 11/09 -- 11/15 | Implementing lock-free extensible hash table using CAS      | Done        |             |
+| 11/16 -- 11/22 | Implement the coarse-grained locked extensible hash table   | Done        |             |
+|                | Implement the fine-grained locked extensible hash table     | Done        |             |
+| 11/23 -- 11/29 | Verify correctness of implemented hash tables               | Done        |             |
+|                | Finish checkpoint report                                    | Done        |             |
+| 11/30 -- 12/02 | Performance analysis - same tests as the paper              | In-progress | Danié       |
+| 11/30 -- 12/04 | Performance analysis - time distribution                    | In-progress | Danié       |
+| 11/30 -- 12/09 | Optimize hash table implementations                         | In-progress | Both        |
+| 12/10 -- 12/13 | Finish final report                                         | TODO        | Both        |
+| 12/13 -- 12/14 | Finish poster                                               | TODO        | Both        |
 
 ## Work Completed
 
