@@ -4,8 +4,8 @@ Team members: Danié Alvarado, Xinzhu Cai
 ### Links
 
 * https://github.com/xinzhu-cai/418project.github.io
-* [Proposal](/doc/proposal)
-* [Checkpoint](/doc/checkpoint)
+* [Proposal](https://xinzhu-cai.github.io/418project.github.io/doc/proposal)
+* [Checkpoint](https://xinzhu-cai.github.io/418project.github.io/doc/proposal)
 
 ### Summary
 
