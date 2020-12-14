@@ -6,10 +6,17 @@ Team members: Danié Alvarado, Xinzhu Cai
 * https://github.com/xinzhu-cai/418project.github.io
 * [Proposal](https://xinzhu-cai.github.io/418project.github.io/doc/proposal)
 * [Checkpoint](https://xinzhu-cai.github.io/418project.github.io/doc/checkpoint)
+* [Poster](https://xinzhu-cai.github.io/418project.github.io/Poster.pdf)
+* [Final Report](https://xinzhu-cai.github.io/418project.github.io/Report.pdf)
 
 ### Summary
 
-We are going to implement lock-free hash tables as a C++ library and compare the performance with lock-based implementations.
+We implemented a concurrent extensible hash table library in C++ including three versions: a lock-free
+extensible hash table using CAS, which is based on a split-order list, a coarse-grained
+lock-based version, and a fine-grained lock-based version based on a two-level locking
+mechanism. Given the experimental results on a 12-core shared memory multiprocessor, we
+demonstrate that the lock-free version is more efficient and scalable in most cases and is
+significantly better than lock-based ones under heavy or skewed workloads.
 
 ### Schedule 
 
@@ -21,8 +28,7 @@ We are going to implement lock-free hash tables as a C++ library and compare the
 |                | Implement the fine-grained locked extensible hash table     | Done        |
 | 11/23 -- 11/29 | Verify correctness of implemented hash tables               | Done        |
 |                | Finish checkpoint report                                    | Done        |
-| 11/30 -- 12/06 | Performance analysis                                        | TODO        |
-|                | Optimize hash table implementations                         | TODO        |
-|                | Finish final report                                         | TODO        |
-|                | Finish poster                                               | TODO        |
-|                | Optimize hash table implementations                         | TODO        |
+| 11/30 -- 12/06 | Performance analysis                                        | Done        |
+|                | Optimize hash table implementations                         | Done        |
+|                | Finish final report                                         | Done        |
+|                | Finish poster                                               | Done        |
